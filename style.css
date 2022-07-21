@@ -1,0 +1,220 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+/* NAV BAR STYLES */
+
+.nav {
+    background-color: black;
+    display: flex;
+    width: 950px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-title {
+    color: white;
+    padding-left: 100px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 10px;
+}
+
+.nav-links a:active {
+    color: white;
+}
+
+.btn {
+    border-radius: 4px;
+    background: cadetblue;
+    color: white;
+    box-shadow: 1px 2px black;
+    margin-right: 150px;
+}
+
+/* MAIN PAGE STYLES */
+
+.main {
+    margin: 30px 100px 0px 100px;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col1 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col2 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*GENERAL*/
+
+.general {
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.acc-bar {
+    background-color: cadetblue;
+    height: 60px;
+    /*position: fixed;*/
+}
+
+#pro-pic {
+    border-radius: 50%;
+    height: 60px;
+    /*margin-top: 30px;*/
+    position: relative;
+}
+#pin {
+    height: 15px;
+}
+#gear {
+    height: 15px;
+}
+.info {
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#pro-name {
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#pro-pic, #pin, #gear, p.info, #pro-name {
+    margin-left: 20px;
+}
+
+/* EDUCATION */
+
+.label-education {
+    background-color: dimgrey;
+    font-size: small;
+    padding: 4px 0 4px 20px;
+    color: white;
+    font-weight:lighter;
+}
+
+.education {
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 30px;
+}
+
+#dojo, #dojo-date, #certificate {
+    margin: 3px;
+    margin-left: 20px;
+}
+
+/* REQUESTS */
+
+.requests {
+    border-color:grey;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.num-req, .label-req {
+    font-size: small;
+    display: inline-block;
+}
+
+.num-req {
+    background-color: bisque;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding-left: 4px;
+    margin-right: 4px;
+}
+
+.req-bar {
+    padding: 4px 0 4px 10px;
+    background-color: dimgrey;
+}
+
+.req {
+    padding: 6px 0 0 0;
+}
+
+.req>*{
+    max-height: 20px;
+    display: inline-block;
+}
+
+.name {
+    margin-right: 50px;
+    vertical-align:top;
+}
+
+.pic {
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+/* CONNECTIONS */
+
+.connections {
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 30px;
+}
+
+.conn-bar {
+    padding: 4px 0 4px 10px;
+    background-color: dimgrey;
+}
+
+.conn {
+    padding: 4px 0 0 0;
+}
+
+.conn>*{
+    max-height: 20px;
+    display: inline-block;
+}
+
+.num-conn {
+    background-color: bisque;
+    border-radius: 50%;
+    width: 35px;
+    height: 15px;
+    padding-left: 4px;
+    margin-right: 4px;
+}
+
+.num-conn, .label-conn {
+    font-size: small;
+    display: inline-block;
+}
+
+#more {
+    padding: 4px 0 4px 15px;
+    border-color: grey;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: block;
+}
